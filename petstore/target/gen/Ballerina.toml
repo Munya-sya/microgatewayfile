@@ -1,0 +1,48 @@
+[project]
+org-name= "wso2"
+version= "3.2.0"
+
+[dependencies]
+"wso2/gateway" = { path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/gateway-balo/gateway-2020r1-java8-3.2.0.balo"}
+
+
+[platform]
+target = "java8"
+
+    [[platform.libraries]]
+        module = "jms"
+        path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/dependencies/andes-client-3.3.9.jar"
+
+    [[platform.libraries]]
+        module = "jms"
+        path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/dependencies/org.wso2.securevault-1.1.1.jar"
+
+    [[platform.libraries]]
+        module = "interceptor"
+        path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/dependencies/mgw-interceptor-3.2.0.jar"
+
+    [[platform.libraries]]
+        module = "jwtTransformer"
+        path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/dependencies/mgw-jwt-transformer-3.2.0.jar"
+
+    [[platform.libraries]]
+            module = "jwtGenerator"
+            path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/dependencies/mgw-jwt-generator-3.2.0.jar"
+
+     [[platform.libraries]]
+        module = "gateway"
+        path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/dependencies/org.wso2.carbon.databridge.commons-6.1.45.jar"
+
+     [[platform.libraries]]
+        module = "gateway"
+        path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/dependencies/org.wso2.carbon.databridge.commons.binary-6.1.45.jar"
+
+     [[platform.libraries]]
+        module = "gateway"
+        path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/dependencies/disruptor-3.4.2.wso2v1.jar"
+
+     [[platform.libraries]]
+        module = "callhome"
+        path = "/Users/kennedymwenga/Documents/WSO2/wso2am-micro-gw-toolkit-macos-3.2.0/lib/gateway/platform/core-1.0.8.jar"
+
+

@@ -1,0 +1,22 @@
+[2022-07-25 11:21:22,429] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at wso2.petstore.___init.wso2_petstore_3_2_0__stop_(petstore:80)
+	at wso2.petstore.___init.$lambda$wso2_petstore_3_2_0__stop_(petstore)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at wso2.petstore.___init.$moduleStop(petstore)
+	at wso2.petstore.___init$SignalListener.run(Unknown Source)
+ 
+[2022-07-25 11:21:22,436] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at wso2.petstore.___init.wso2_petstore_3_2_0__stop_(petstore:80)
+	at wso2.petstore.___init.$lambda$wso2_petstore_3_2_0__stop_(petstore)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at wso2.petstore.___init.$moduleStop(petstore)
+	at wso2.petstore.___init$SignalListener.run(Unknown Source)
+ 
